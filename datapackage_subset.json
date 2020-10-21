@@ -1,0 +1,143 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "working-memory-data",
+      "path": "WM_raw_datapackage.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "participant_num",
+            "type": "integer",
+            "format": "default",
+            "title": "Participant number"
+          },
+          {
+            "name": "pseudoword_rep/48",
+            "type": "integer",
+            "format": "default",
+            "title": "Pseudoword repetition",
+            "description": "Repetition of pseudowords: score out of 48"
+          },
+          {
+            "name": "fwd_recall/54",
+            "type": "integer",
+            "format": "default",
+            "title": "Forward digit recall",
+            "description": "Forward digit recall: score out of 54"
+          },
+          {
+            "name": "fwd_recall_range/9",
+            "type": "integer",
+            "format": "default",
+            "title": "Forward digit recall range",
+            "description": "The range of the recall, out of possible 9 "
+          },
+          {
+            "name": "bwd_recall/45",
+            "type": "integer",
+            "format": "default",
+            "title": "Backward digit recall",
+            "description": "Backward digit recall: score out of 45 "
+          },
+          {
+            "name": "bwd_recall_range/9",
+            "type": "integer",
+            "format": "default",
+            "title": "Backward digit recall range",
+            "description": "The range of the recall, out of possible 9 "
+          },
+          {
+            "name": "fwd_corsi/54",
+            "type": "integer",
+            "format": "default",
+            "title": "Corsi task forward",
+            "description": "Visuospatial WM (Corsi task) forward recall: score out of 54"
+          },
+          {
+            "name": "fwd_corsi_range/9",
+            "type": "integer",
+            "format": "default",
+            "title": "Corsi task forward range",
+            "description": "The range of the recall, out of possible 9 "
+          },
+          {
+            "name": "bwd_corsi/45",
+            "type": "integer",
+            "format": "default",
+            "title": "Corsi task backward",
+            "description": "Visuospatial WM (Corsi task) backward recall: score out of 45"
+          },
+          {
+            "name": "bwd_corsi_range/9",
+            "type": "integer",
+            "format": "default",
+            "description": "The range of the recall, out of possible 9 ",
+            "title": "Corsi task backward"
+          }
+        ]
+      }
+    },
+    {
+      "name": "language-data",
+      "path": "Language_raw_datapackage.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "participant_num",
+            "type": "integer",
+            "format": "default",
+            "title": "Participant number"
+          },
+          {
+            "name": "morph_prod/24",
+            "type": "integer",
+            "format": "default",
+            "title": "Morphosyntax production",
+            "description": "Task taken from the Developmental Verbal IQ test-preschool (Stavrakaki and Tsimpli 2001), assessing morphosyntax production. Score out of 24"
+          },
+          {
+            "name": "morph_comp/31",
+            "type": "integer",
+            "format": "default",
+            "description": "Task taken from the Developmental Verbal IQ test-preschool (Stavrakaki and Tsimpli 2001), assessing morphosyntax comprehension. Score out of 31. ",
+            "title": "Morphosyntax comprehension"
+          },
+          {
+            "name": "syll_manip/12",
+            "type": "integer",
+            "format": "default",
+            "title": "Syllable manipulation",
+            "description": "A pooled score taken from the subtests syllable addition, syllable deletion, syllable manipulation of the METAPHON test. Out of 12. "
+          },
+          {
+            "name": "phon_manip/8",
+            "type": "integer",
+            "format": "default",
+            "title": "Phoneme manipulation",
+            "description": "A pooled score taken from the subtests phoneme addition, phoneme deletion of the METAPHON test. Out of 8. "
+          }
+        ]
+      }
+    }
+  ],
+  "keywords": [
+    "language assessment",
+    "working memory",
+    "corsi",
+    "language production",
+    "language comprehension",
+    "phonological awareness"
+  ],
+  "name": "language-wm-data",
+  "title": "language and working memory data",
+  "description": "This dataset contains the working memory and language data of my PhD project. Data was collected between January and July 2020 from private and public nursery schools and primary schools. Participants were aged between 5;6 and 6;6 at the time of the collection. Access to schools was given by the Institute of Educational Policy (Ministry of Education) and parental consent was obtained. ",
+  "contributors": [
+    {
+      "title": "Katerina Drakoulaki",
+      "role": "author"
+    }
+  ]
+}
