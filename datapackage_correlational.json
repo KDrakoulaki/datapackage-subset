@@ -1,0 +1,212 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "resource1",
+      "path": "16-11-20_correlational_fordatapackage.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "participant",
+            "type": "integer",
+            "format": "default",
+            "title": "Participant number"
+          },
+          {
+            "name": "age(1st session)",
+            "type": "integer",
+            "format": "default",
+            "title": "Age ",
+            "description": "Participants' age (during 1st session) in months. "
+          },
+          {
+            "name": "PPVT_raw",
+            "type": "integer",
+            "format": "default",
+            "title": "PPVT raw scores",
+            "description": "Peabody Pictured Vocabulary Test raw scores"
+          },
+          {
+            "name": "PPVT_z",
+            "type": "number",
+            "format": "default",
+            "description": "Peabody Pictured Vocabulary Test z- scores",
+            "title": "PPVT z scores "
+          },
+          {
+            "name": "RCPM_raw",
+            "type": "integer",
+            "format": "default",
+            "title": "RCPM raw scores",
+            "description": "Raven's Colored Progressive Matrices raw scores. RCPM measures non-verbal intelligence. "
+          },
+          {
+            "name": "RCPM_z",
+            "type": "number",
+            "format": "default",
+            "title": "RCPM z scores",
+            "description": "Raven's Colored Progressive Matrices raw scores. RCPM measures non-verbal intelligence"
+          },
+          {
+            "name": "Srep_structure_correct/32",
+            "type": "integer",
+            "format": "default",
+            "title": "Sentence Repetition",
+            "description": "The Sentence Repetition task, scored according to structure correct, is comprised of 32 sentences of varying syntactic complexity. Hence, the score is out of 32. "
+          },
+          {
+            "name": "morph_prod/24",
+            "type": "integer",
+            "format": "default",
+            "title": "Morphosyntax production",
+            "description": "The morphosyntax production task is a subtest of the Developmental Verbal IQ test (Tsimpli & Stavrakaki 2001). It contains  24 items. "
+          },
+          {
+            "name": "morph_comp/31",
+            "type": "integer",
+            "format": "default",
+            "title": "Morphosyntax comprehension",
+            "description": "The morphosyntax comprehension task is a subtest of the Developmental Verbal IQ test (Tsimpli & Stavrakaki 2001). It contains 31 items. "
+          },
+          {
+            "name": "syll_manip/12",
+            "type": "integer",
+            "format": "default",
+            "title": "Syllable manipulation",
+            "description": "Syllable manipulation is a composite score, taken from the three syllable manipulation subtests of the Metaphon test, measuring phonological awareness. It is scored out of 12. "
+          },
+          {
+            "name": "phon_manip/8",
+            "type": "integer",
+            "format": "default",
+            "description": "Phoneme manipulation is a composite score, taken from two phoneme manipulation subtests of the Metaphon test, measuring phonological awareness. It is scored out of 8. ",
+            "title": "Phoneme manipulation"
+          },
+          {
+            "name": "pseudoword_rep/48",
+            "type": "integer",
+            "format": "default",
+            "title": "Pseudoword repetition",
+            "description": "Repetition of pseudowords: score out of 48\n(phonological working memory)"
+          },
+          {
+            "name": "fwd_recall/54",
+            "type": "integer",
+            "format": "default",
+            "title": "Forward digit recall",
+            "description": "Forward digit recall: score out of 54\n(verbal working memory)"
+          },
+          {
+            "name": "fwd_recall_range/9",
+            "type": "integer",
+            "format": "default",
+            "title": "Forward digit recall range",
+            "description": "The range of the recall, out of possible 9"
+          },
+          {
+            "name": "bwd_recall/45",
+            "type": "integer",
+            "format": "default",
+            "title": "Backward digit recall",
+            "description": "Backward digit recall: score out of 45"
+          },
+          {
+            "name": "bwd_recall_range/9",
+            "type": "integer",
+            "format": "default",
+            "description": "The range of the recall, out of possible 9 ",
+            "title": "Backward digit recall range"
+          },
+          {
+            "name": "fwd_corsi/54",
+            "type": "integer",
+            "format": "default",
+            "title": "Corsi task forward",
+            "description": "Visuospatial WM (Corsi task) forward recall: score out of 54"
+          },
+          {
+            "name": "fwd_corsi_range/9",
+            "type": "integer",
+            "format": "default",
+            "title": "Corsi task forward range",
+            "description": "The range of the recall, out of possible 9"
+          },
+          {
+            "name": "bwd_corsi/45",
+            "type": "integer",
+            "format": "default",
+            "title": "Corsi task backward",
+            "description": "Visuospatial WM (Corsi task) backward recall: score out of 45"
+          },
+          {
+            "name": "bwd_corsi_range/9",
+            "type": "integer",
+            "format": "default",
+            "title": "Corsi task backward",
+            "description": "The range of the recall, out of possible 9"
+          },
+          {
+            "name": "melody_score",
+            "type": "integer",
+            "format": "default",
+            "title": "Melody score",
+            "description": "Score of the melody subtest of the MBEMA (Peretz et al. 2013) - out of 20. "
+          },
+          {
+            "name": "rhythm_score",
+            "type": "integer",
+            "format": "default",
+            "description": "Score of the rhythm subtest of the MBEMA (Peretz et al. 2013) - out of 20. ",
+            "title": "Rhythm score"
+          },
+          {
+            "name": "cBAT_score",
+            "type": "integer",
+            "format": "default",
+            "title": "cBAT score",
+            "description": "Overall percentage of the complex Beat Alignment Test (Einarson 2016) "
+          },
+          {
+            "name": "complex_cBAT",
+            "type": "integer",
+            "format": "default",
+            "title": "complex cBAT",
+            "description": "Percentage for the complex rhythm items of the cBAT"
+          },
+          {
+            "name": "simple_cBAT",
+            "type": "integer",
+            "format": "default",
+            "description": "Percentage for thesimple rhythm items of the cBAT",
+            "title": "simple cBAT"
+          }
+        ]
+      }
+    }
+  ],
+  "keywords": [
+    "preschoolers",
+    "language comprehension",
+    "phonological awareness",
+    "working memory",
+    "music skills",
+    "rhythm perception"
+  ],
+  "name": "16-11-correlational-data",
+  "title": "correlational datapackage",
+  "description": "This dataset corresponds to the data gathered for my PhD project. It contains participants' scores in measures of receptive vocabulary, non-verbal IQ, sentence repetition, morphosyntax production and comprehension, phonological awareness, working memory, and music skills. Participants' age is available in months. ",
+  "contributors": [
+    {
+      "title": "Katerina Drakoulaki ",
+      "role": "author"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-SA-4.0",
+      "title": "Creative Commons Attribution Share-Alike 4.0",
+      "path": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ]
+}
