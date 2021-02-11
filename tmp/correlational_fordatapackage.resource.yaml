@@ -1,0 +1,80 @@
+compression: 'no'
+compressionPath: ''
+control:
+  newline: ''
+dialect: {}
+encoding: utf-8-sig
+format: csv
+hashing: md5
+name: correlational_fordatapackage
+path: correlational_fordatapackage.csv
+profile: tabular-data-resource
+query: {}
+schema:
+  fields:
+    - name: participant
+      type: integer
+    - name: age(1st session)
+      type: integer
+    - name: PPVT_raw
+      type: integer
+    - name: PPVT_z
+      type: number
+    - name: RCPM_raw
+      type: integer
+    - name: RCPM_z
+      type: number
+    - name: Srep_structure_correct/32
+      type: integer
+    - name: morph_prod/24
+      type: integer
+    - name: morph_comp/31
+      type: integer
+    - name: syll_manip/12
+      type: integer
+    - name: phon_manip/8
+      type: integer
+    - name: pseudoword_rep/48
+      type: integer
+    - name: fwd_recall/54
+      type: integer
+    - name: fwd_recall_range/9
+      type: integer
+    - name: bwd_recall/45
+      type: integer
+    - name: bwd_recall_range/9
+      type: integer
+    - name: fwd_corsi/54
+      type: integer
+    - name: fwd_corsi_range/9
+      type: string
+    - name: bwd_corsi/45
+      type: string
+    - name: bwd_corsi_range/9
+      type: string
+    - name: melody_score
+      type: integer
+    - name: rhythm_score
+      type: integer
+    - name: cBAT_score
+      type: integer
+    - name: complex_cBAT
+      type: integer
+    - name: simple_cBAT
+      type: integer
+    - name: chat_d'
+      type: number
+    - name: trackgridprop
+      type: number
+    - name: trackgridprop_z
+      type: number
+    - name: trackrecallprop
+      type: number
+    - name: trackrecallprop_z
+      type: number
+scheme: file
+stats:
+  bytes: 3000
+  fields: 30
+  hash: d5fca8495f9cf143ad4b75b83466f4e9
+  rows: 22

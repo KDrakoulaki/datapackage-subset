@@ -1,0 +1,134 @@
+fields:
+  - name: participant
+    title: participant code
+    type: integer
+  - description: participants' age (in months) in the first session
+    name: age(1st session)
+    title: age
+    type: integer
+  - description: Peabody Pictured Vocabulary Test raw scores
+    name: PPVT_raw
+    title: PPVT raw scores
+    type: integer
+  - description: Peabody Pictured Vocabulary Test z-scores
+    name: PPVT_z
+    title: PPVT z-scores
+    type: number
+  - description: 'Raven''s Colored Progressive Matrices raw scores. RCPM measures
+      non-verbal intelligence. '
+    name: RCPM_raw
+    title: RCPM raw scores
+    type: integer
+  - description: Raven's Colored Progressive Matrices z-scores.
+    name: RCPM_z
+    title: RCPM z scores
+    type: number
+  - description: The Sentence Repetition task, scored according to structure correct,
+      is comprised of 32 sentences of varying syntactic complexity.
+    name: Srep_structure_correct/32
+    title: sentence repetition
+    type: integer
+  - description: The morphosyntax production task is a subtest of the Developmental
+      Verbal IQ test (Tsimpli & Stavrakaki 2001). It contains  24 items.
+    name: morph_prod/24
+    title: morphosyntax production
+    type: integer
+  - description: The morphosyntax comprehension task is a subtest of the Developmental
+      Verbal IQ test (Tsimpli & Stavrakaki 2001). It contains 31 items.
+    name: morph_comp/31
+    title: morphosyntax comprehension
+    type: integer
+  - description: Syllable manipulation is a composite score, taken from the three
+      syllable manipulation subtests of the Metaphon test, measuring phonological
+      awareness. It is scored out of 12.
+    name: syll_manip/12
+    title: syllable manipulation
+    type: integer
+  - description: 'Phoneme manipulation is a composite score, taken from two phoneme
+      manipulation subtests of the Metaphon test, measuring phonological awareness.
+      It is scored out of 8. '
+    name: phon_manip/8
+    title: phoneme manipulation
+    type: integer
+  - description: 'Repetition of pseudowords: score out of 48
+
+      (phonological working memory)'
+    name: pseudoword_rep/48
+    title: pseudoword repetition
+    type: integer
+  - description: 'Forward digit recall: score out of 54
+
+      (verbal working memory)'
+    name: fwd_recall/54
+    title: forward digit recall
+    type: integer
+  - description: the range of the recall, out of possible 9
+    name: fwd_recall_range/9
+    title: forward digit recall range
+    type: integer
+  - description: 'Backward digit recall: score out of 45'
+    name: bwd_recall/45
+    title: backward digit recall
+    type: integer
+  - description: backward digit recall range, out of possible 9
+    name: bwd_recall_range/9
+    title: backward digit recall range
+    type: integer
+  - description: 'Visuospatial WM (Corsi task) forward recall: score out of 54'
+    name: fwd_corsi/54
+    title: Corsi task forward
+    type: string
+  - description: The range of the recall, out of possible 9
+    name: fwd_corsi_range/9
+    title: Corsi task forward range
+    type: string
+  - description: the range of the recall, out of possible 9
+    name: bwd_corsi/45
+    title: Corsi task backward
+    type: string
+  - description: the range of the recall, out of possible 9
+    name: bwd_corsi_range/9
+    title: Corsi task backward range
+    type: string
+  - description: Score of the melody subtest of the MBEMA (Peretz et al. 2013) - out
+      of 20.
+    name: melody_score
+    title: melody score
+    type: integer
+  - description: Score of the rhythm subtest of the MBEMA (Peretz et al. 2013) - out
+      of 20.
+    name: rhythm_score
+    title: rhythm score
+    type: integer
+  - description: Overall percentage of the complex Beat Alignment Test (Einarson 2016)
+    name: cBAT_score
+    title: cBAT score
+    type: integer
+  - name: complex_cBAT
+    title: Percentage for the complex rhythm items of the cBAT
+    type: integer
+  - name: simple_cBAT
+    title: Percentage for the simple rhythm items of the cBAT
+    type: integer
+  - description: d' for the auditory attention task chat-y-es-tu
+    name: chat_d'
+    title: auditory attention d'
+    type: number
+  - description: visual attention proportion of correct responses
+    name: trackgridprop
+    title: visual attention raw
+    type: number
+  - description: visual attention z-scores of correct responses
+    name: trackgridprop_z
+    title: visual attention z-scores
+    type: number
+  - description: proportion of correct responses for the recall of shapes
+    name: trackrecallprop
+    title: visual recall shape proportion
+    type: number
+  - description: z-scores of correct responses for the recall of shapes
+    name: trackrecallprop_z
+    title: visual recall shape z-scores
+    type: number
+  - name: keywords
+    type: string
