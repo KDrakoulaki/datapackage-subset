@@ -1,5 +1,5 @@
 # datapackage-subset
-My PhD project investigates the linguistic, cognitive, and music abilities of pre-schoolers. I designed an experimental protocol where in each session (out of 5), I looked at different abilities. A subset of the data (missing the final session) is available on this repository. 
+My PhD project investigates the linguistic, cognitive, and music abilities of pre-schoolers. I designed an experimental protocol where in each session (out of 5), I looked at different abilities. A subset of the data (missing the final session) is available on this repository. This subset was created during my Frictionless Data for Reproducible Research Fellowship (2020-2021), and uses Frictionless Data tools. 
 
 This is a subset of my data package, including data from baseline (receptive vocabulary, non-verbal IQ, sentence repetition), language, working memory, auditory go/no go task, visual selective attention, and music skills assessment. Overall, this subset corresponds to the correlational aspect of my PhD study.
 
