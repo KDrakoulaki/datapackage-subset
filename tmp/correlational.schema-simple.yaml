@@ -130,5 +130,8 @@ fields:
     name: trackrecallprop_z
     title: visual recall shape z-scores
     type: number
-  - name: keywords
+  - description: preschoolers,language comprehension,phonological awareness, working
+      memory,music skills,rhythm perception
+    name: keywords
+    title: keywords
     type: string

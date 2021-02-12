@@ -78,18 +78,9 @@ schema.get_field("trackrecallprop_z").description = "z-scores of correct respons
 
 from frictionless import Field 
 
-schema.add_field(Field(name="keywords", type="string")) # = ("preschoolers","language comprehension","phonological awareness", "working memory","music skills","rhythm perception")
-schema.get_field("keywords")
-
-
-
-
-
-
-
-
-
-
+schema.add_field(Field(name="keywords", type="string")) 
+schema.get_field("keywords").title = "keywords"
+schema.get_field("keywords").description = "preschoolers,language comprehension,phonological awareness, working memory,music skills,rhythm perception"
 
 
 
